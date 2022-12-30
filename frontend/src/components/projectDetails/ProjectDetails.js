@@ -8,7 +8,7 @@ import ProjectUserDetails from "./ProjectUserDetails";
 import io from "socket.io-client";
 import { addNotifications } from "../../store/notifications/notificatonSlice";
 
-const ENDPOINT = "https://findprogrammer.herokuapp.com/";
+const ENDPOINT = "https://programmer-recruiter-krish.onrender.com/";
 var socket;
 
 const ProjectDetails = () => {

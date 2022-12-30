@@ -80,7 +80,7 @@ exports.forgotPassword = (Model, type) =>
         resetURL = `http://localhost:3000/${type}/resetPassword/${resetToken}`;
       } else {
         //TODO: add the hosted url
-        resetURL = `https://findprogrammer.herokuapp.com/${type}/resetPassword/${resetToken}`;
+        resetURL = `https://programmer-recruiter-krish.onrender.com/${type}/resetPassword/${resetToken}`;
       }
 
       await new Email(user, resetURL).sendResetPassword();

@@ -9,7 +9,7 @@ import {
 } from "../../store/notifications/notificatonSlice";
 import TimeAgo from "timeago-react";
 
-const ENDPOINT = "https://findprogrammer.herokuapp.com/";
+const ENDPOINT = "https://programmer-recruiter-krish.onrender.com/";
 var socket;
 
 const activeStyles = {
